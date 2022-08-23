@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Josefin+Slab:ital,wght@1,600&family=Oleo+Script+Swash+Caps:wght@400;700&display=swap");
+      body {
+        background-color: #0f172a;
+        color: whitesmoke;
+      }
+      .header-section {
+        background-color: black;
+      }
+      .header-title {
+        font-family: "Cormorant SC", serif;
+
+        letter-spacing: 4px;
+      }
+
+      main img {
+        width: 264px;
+        height: 204px;
+       
+      }
+      main a {
+        color: #015196;
+      }
+      .salary-field {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8px;
+      }
+      .salary-field input {
+        border: 1px solid white;
+        padding: 5px 0;
+        padding-left: 10px;
+        background: transparent;
+        color: white;
+      }
+      .salary-field input:focus {
+        outline: none;
+      }
+      .player-salary-field{
+        display: flex;
+        justify-content: space-between;
+      }
+      .player-salary-field input{
+        border: 1px solid white;
+        padding: 5px 0;
+        padding-left: 5px;
+        background: transparent;
+        color: white;
+      }
+      .player-salary-field input:focus {
+        outline: none;
+      }
